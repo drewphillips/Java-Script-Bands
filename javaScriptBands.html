@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bands</title>
+  </head>
+  <body>
+
+
+    <script>
+
+        var likedBands = ["tool", "paul simon", "krs1", "foo fighters", "miles davis"];
+
+        var yourLikedBands = prompt("Which band or artist do you like?");
+
+        var likedBandsLower = yourLikedBands.toLowerCase();
+        
+        if (likedBands.indexOf(likedBandsLower) === -1) {
+        alert("Nah! They're pretty lame...");
+      }
+      else {
+        alert("OMG! I love them too!");
+      }
+
+
+    </script>
+    </body>
+    </html>
+    
